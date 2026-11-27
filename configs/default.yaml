@@ -17,3 +17,10 @@ train:
   workers: 4
   project_dir: runs/phase1
   run_name: visdrone_yolo11n_960
+tracking:
+  enabled: true
+  track_activation_threshold: 0.25   
+  lost_track_buffer: 30
+  minimum_matching_threshold: 0.8
+  frame_rate: 30
+  trail_length: 20
